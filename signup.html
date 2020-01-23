@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' width='device-width initial-scale=1.0'>
+    <title>Signup Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-size: 62.5%; 
+        }
+        body {
+            background-image: linear-gradient(to right, #0f95d2 , #246eb7);
+            padding: 30px 0 60px 0;
+            font-family: 'Lato', sans-serif;
+        }
+        #signup-div {
+            width: 70%;
+            margin: 0 auto;
+            outline: 10px solid #1198d8;
+            padding: 50px 50px 100px 50px;
+            margin-top: 40px;
+            background: #3a469c;
+        }
+        .text-center {
+            text-align: center;
+        }
+        #signup-div h1 {
+            font-size: 4rem;
+            color: #fff;
+        }
+        #signup-div form,
+        #signup-div p {
+            width: 80%;
+            margin: 0 auto;
+        }
+        #signup-div p {
+            font-size: 1.8rem;
+            color: #fff;
+            line-height: 1.6;
+            margin-top: -10px;
+        }
+        #signup-div form input {
+            display: block;
+            width: 100%;
+            margin-top: 30px;
+            height: 45px;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #1198d8;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #fff;
+            opacity: 1; /* Firefox */
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #fff;
+        }
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #fff;
+        }
+        input:focus {
+            outline: none;
+        }
+        #signup-div button {
+            padding: 15px 35px;
+            margin-top: 40px;
+            border: 2px solid #fff;
+            background: transparent;
+            color: #fff;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+        #signup-div button:hover {
+            background: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="signup-div">
+        <div class="text-center">
+            <h1>SIGNUP FORM</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugiat dolore nisi nostrum nemo voluptate, maxime aspernatur cumque quisquam distinctio</p>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <input type="passowrd" placeholder="Password" required />
+                <div class="text-center">
+                    <button type="submit">SUBMIT &nbsp;<i class="fa fa-arrow-right"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f942ab1902.js" crossorigin="anonymous"></script>
+</body>
+</html>
